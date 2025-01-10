@@ -82,8 +82,7 @@ export class ObjectListInput {
   @IsObject()
   @ValidateNested()
   @ApiPropertyOptional({
-    type: ObjectSorting,
-    enumName: 'test'
+    type: ObjectSorting
   })
   sorting?: ObjectSorting
 
